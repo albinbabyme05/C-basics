@@ -1,0 +1,93 @@
+# Ignore the .vscode folder (personal settings)
+.vscode/
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.plist
+*.pdb
+*.pidb
+*.svclog
+*.log
+*.cache
+*.ilk
+*.aps
+*.ncb
+*.sdf
+*.opendb
+*.tlog
+*.VC.db
+*.DS_Store
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider project settings
+.idea/
+
+# NuGet packages
+*.nupkg
+**/packages/
+# Uncomment if you have NuGet package restore enabled
+# !**/packages/build/
+
+# Resharper settings
+*.DotSettings.user
+
+# Ignore JetBrains Rider logs
+.idea/
+
+# Ignore DLLs
+*.dll
+*.exe
+
+# Ignore compiled files
+*.obj
+*.exe
+*.out
+*.iobj
+*.ipdb
+
+# Ignore logs, database, and temp files
+*.log
+*.sqlite
+*.db
+*.bak
+*.tmp
+
+# Ignore test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.testlog
+.trx
+
+# Ignore Node.js packages (if using frontend code in the project)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore Python virtual environments (if using Python with C#)
+venv/
+__pycache__/
+
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore generated documentation files
+*.mdoc
+*.xml
+
+# Ignore IDE settings
+*.sln.docstates
+*.csproj.user
+*.csproj*
+.csproj
+*.sln
+.sln
